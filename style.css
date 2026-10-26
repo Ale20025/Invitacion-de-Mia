@@ -1,0 +1,224 @@
+body {
+    background-color: #101020;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#Encabezado{
+    align-items: start;
+    justify-content: center;
+}
+
+#Portada{
+    background-image: url(imagenes/portada.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75%;
+}
+
+#Nombre {
+    font-size: 1050%;
+    text-align: center;
+    color:rgb(223, 54, 90);
+    text-shadow: 0 0 100px rgb(236, 122, 147);
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 12%;
+    margin-top: 4%;
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Fondo{
+    background-image: url(imagenes/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#Sub {
+    font-size: 800%;
+    text-align: center;
+    color:rgb(213, 154, 219);
+    text-shadow: 0 0 120px rgb(201, 104, 211);
+    margin: 0;
+    margin-top: 10%;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#margen{
+    background-image: url(imagenes/margen1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+    margin-top: 10%;
+    animation: Cambio 2s infinite;
+}
+
+@keyframes Cambio{
+    25% {background-image: url(imagenes/margen2.png);}
+    50% {background-image: url(imagenes/margen3.png);}
+    75% {background-image: url(imagenes/margen1.png);}
+}
+
+#ubi {
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+#Sub2{
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.ubi_text4{
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 100px rgb(255, 0, 0);
+}
+
+#Salon{
+    border-radius: 75px;
+    width: 75%;
+}
+
+#ubi_text5{
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    color: white;
+}
+
+#Mapa{
+    width: 50%;
+    height: 5%;
+    background-color: rgb(252, 83, 176);
+    border: none;
+    border-radius: 30px;
+    transition: 0.1s;
+    cursor: pointer;
+    font-size: 75%;
+    color: white;
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.1s;
+    box-shadow: 0 15px 0 rgb(90, 39, 119);
+}
+
+#Mapa:hover{
+    background-color: rgb(190, 83, 252);
+    box-shadow: 0 15px 0 rgb(90, 39, 119);
+}
+
+#Mapa:active{
+    background-color: rgb(83, 246, 252);
+    transform: translateY(10px);
+    box-shadow: 0 0 0 0 black;
+}
+
+#Mensaje{
+    margin-top: 4%;
+    width: 100%;
+    height: 30%;
+    background-image: url(imagenes/niña.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 100px;
+    border-radius: 50px;
+    border: none;
+}
+
+.card {
+    background-image: url(imagenes/reloj.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 75px;
+    box-shadow: 0 20px 30px rgb(104, 68, 74);
+
+
+.faltan {
+    margin:0;
+    margin-bottom: 100px;
+    font-size: 90px;
+    color: white;
+}
+
+.contador {
+     display: flex;
+     justify-content: space-around;
+     font-weight: bold;
+}
+
+span {
+    background-color:rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.Indicador{
+    color:white;
+}
+
+.fecha {
+    font-size: 120px;
+    color: white;
+    opacity: 0;
+}
+}
+
+#Fecha{
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Sonido {
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(imagenes/audion.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}

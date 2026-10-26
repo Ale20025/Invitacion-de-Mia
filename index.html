@@ -1,0 +1,72 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Press+Start+2P&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="Encabezado">
+        <div id="Portada"></div>
+        <h1 id="Nombre">Mia Guadalupe</h1>
+    </div>
+
+    <div id="Fondo">
+        <h2 id="Sub">¡TE INVITO A MI CUMPLEAÑOS!</h2>
+
+        <div id="Margen"></div>
+
+        <div id="ubi">
+            <h2 id="Sub2">¿Dónde?</h2>
+            <h4 class="ubi_text4">Salon</h4>
+            <h4 class="ubi_text4">La hacienda</h4>
+            <img id="Salon" src="imagenes/salon.png" alt="Ceremonia">
+            <h5 id="ubi_text5">Calle Blvd. Benito Juarez<br>195 Miguel Hidalgo</h5>   
+            <a href="https://maps.app.goo.gl/Bkjomm52WgxpsNL29">
+                <button id="Mapa">Ver ubicación</button>
+            </a>
+        </div>
+    </div>
+
+    <div id="Mensaje"></div>
+
+    <div id="Margen"></div>
+
+    <div class="card">
+        <h2 class="faltan">Solo faltan:</h2>
+            
+        <div class="contador">
+            <div>
+                <span id="Dias">0</span>
+                <p class="Indicador">Dias</p>
+            </div>
+
+            <div class="Horas">
+                <span id="Horas">0</span>
+                <p class="Indicador">Horas</p>
+            </div>
+
+            <div class="Minutos">
+                <span id="Minutos">0</span>
+                <p class="Indicador">Min</p>
+            </div>
+
+            <div class="Segundos">
+                <span id="Segundos">0</span>
+                <p class="Indicador">Seg</p>
+            </div>
+        </div>
+
+        <p class="Fecha">15 noviembre del 2026</p>
+    </div>
+
+    <p id="Fecha">15 noviembre del 2026</p>
+
+    <button id="Sonido"></button>
+    <audio id="Musica" loop>
+        <source src="audio/musica.mp4" type="audio/mp4">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
